@@ -1,0 +1,22 @@
+.hero {
+    min-width: 100%;
+    background: $hero-gradient;
+    height: 100%;
+
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        width: 12rem;
+        height: 16rem;
+    }
+
+    &__text {
+        color: $dark-blue;
+        font-size: 3.5rem;
+    }
+
+    &__small {
+        font-size: 3rem;
+        font-weight: normal;
+    }
+}

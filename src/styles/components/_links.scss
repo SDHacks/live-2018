@@ -1,0 +1,30 @@
+.links {
+    background: white;
+    min-width: 100%;
+    height: 100%;
+    color: black;
+
+    &__header {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    &__e {
+        text-align: center;
+        background: $aqua-blue;
+        margin: 1rem 0.75rem;
+        border: 3px solid $aqua-blue; 
+        border-radius: 6px;
+        font-size: 3rem;
+        color: white !important;
+        font-family: 'Reem Kufi', Helvetica, Roboto, Arial, sans-serif;
+        font-weight: bold;
+
+        &:hover {
+            background: transparent;
+            color: $aqua-blue !important;
+            cursor: pointer;
+        }
+
+    }
+}
