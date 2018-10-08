@@ -8,4 +8,29 @@
         color: white;
         font-size: 4rem;
     }
+
+    &__small {
+        font-size: 2rem;
+    }
+}
+
+.announcement {
+    background: $aqua-blue;
+    min-height: 10rem;
+    border-radius: 6px;
+    border: 4px solid white;
+    margin-bottom: 1rem;   
+    display: block;
+
+    &__text {
+        margin: auto;
+        font-size: 2rem;
+
+    }
+
+    &__sub {
+        font-size: 1.3rem;
+        text-align: center;
+        opacity: 0.6;
+    }
 }
