@@ -56,7 +56,7 @@ class Countdown extends Component {
                                 {this.state.days}
                             </div>
                             <div className="countdown__sub">
-                                DAYS
+                                DAY(S)
                             </div>
                         </div>
                         <div class="col-md">
