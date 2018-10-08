@@ -31,12 +31,12 @@ class SideBar extends React.Component {
                     <NavLink className="sidebar__item" to="/whats">
                         <h3>What's Going On?</h3>
                     </NavLink>
-                    <a className="sidebar__item" href="/burgers">
+                    <NavLink className="sidebar__item" to="/schedule">
                         <h3>Full Schedule</h3>
-                    </a>
-                    <a className="sidebar__item" href="/burgers">
+                    </NavLink>
+                    <NavLink className="sidebar__item" to="/contact">
                         <h3>Contact</h3>
-                    </a>
+                    </NavLink>
             </Menu>
         );
     }

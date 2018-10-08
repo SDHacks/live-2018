@@ -6,6 +6,8 @@ import Announcements from './views/Announcements';
 import Links from './views/Links';
 import Home from './views/Home';
 import Going from './views/Going';
+import Schedule from './views/Schedule';
+import Contact from './views/Contact';
 import {Route, Switch} from 'react-router-dom';
 
 class App extends Component {
@@ -31,6 +33,8 @@ class App extends Component {
             <Route exact path='/announcements' component={Announcements}></Route>
             <Route exact path='/links' component={Links}></Route>
             <Route exact path='/whats' component={Going}></Route>
+            <Route exact path='/schedule' component={Schedule}></Route>
+            <Route exact path='/contact' component={Contact}></Route>
         </Switch>
       </>
     );

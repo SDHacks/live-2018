@@ -20,7 +20,7 @@ class Countdown extends Component {
                             <a className="col-md links__e">
                                 Map
                             </a>
-                            <a className="col-md links__e">
+                            <a className="col-md links__e" href="https://join.slack.com/t/sdhacks2018/shared_invite/enQtNDQ4ODE3NDUxMTIzLTU4YTRkZjJmMDUwZWIwMDYyMmRmNTBmYzgzNDhiZjQ4NjYxMzllMDliOTI2MzEwOGMzNTliMDc5OGQ3ZGRjYjk">
                                 Slack
                             </a>
                         </div>
@@ -41,7 +41,11 @@ class Countdown extends Component {
                             </a>
                         </div>
                     </div>
+                    <div class="text-center w-100 links__copy">
+                        Need anything else? Check out our <a> helpdesk</a> or message us on <a href="https://join.slack.com/t/sdhacks2018/shared_invite/enQtNDQ4ODE3NDUxMTIzLTU4YTRkZjJmMDUwZWIwMDYyMmRmNTBmYzgzNDhiZjQ4NjYxMzllMDliOTI2MzEwOGMzNTliMDc5OGQ3ZGRjYjk">Slack</a> 📝
+                    </div>
                 </div>
+
 
                 <style dangerouslySetInnerHTML={{__html: `
                     .bm-burger-bars {
