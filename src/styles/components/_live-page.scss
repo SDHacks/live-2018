@@ -1,0 +1,5 @@
+.live-page {
+  @include media-breakpoint-down(sm) {
+    padding-top: 6rem;
+  }
+}

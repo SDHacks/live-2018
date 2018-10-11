@@ -24,7 +24,7 @@ class Countdown extends Component {
 
     render() {
         return (
-            <div className="announcements container m-0">
+            <div className="live-page announcements container m-0">
                 <div className="row mb-5">
                         <h1 className="announcements__header text-center w-100">
                             Announcements

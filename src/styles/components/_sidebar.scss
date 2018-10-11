@@ -67,6 +67,15 @@
 
 .sidebar {
 
+  &__header {
+    font-weight: 300;
+  }
+
+  &__subheader {
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
   &__logo {
     width: 50%;
     display: block;
@@ -81,10 +90,17 @@
     border-radius: 5px;
     font-size: 1.6rem;
     border: 2px solid white;
+    padding: 0.5rem 0;
 
     h3 {
       margin: 0;
+      font-weight: 300;
     }
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
     &:hover {
       background: transparent;
       color: white;
