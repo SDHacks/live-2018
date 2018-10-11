@@ -1,13 +1,15 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import logo from './assets/logo.svg';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 
 class SideBar extends React.Component {
     
     render() {
         return (
-            <Menu className="container p-0">
+            <Menu className="container p-0" customCrossIcon={ <FontAwesomeIcon icon={faAngleLeft} /> }>
                     <div className="row">
                         <img src={logo} alt="SDHacks Logo" className="sidebar__logo"></img>
                     </div>

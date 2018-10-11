@@ -1,18 +1,3 @@
-
-#App {
-  font-family: sans-serif;
-
-  /* Give app full page to work with */
-  height: 100vh;
-}
-
-#page-wrap {
-  text-align: center;
-
-  /* Prevent sidebar from showing a scrollbar on page */
-  overflow: auto;
-}
-
 /* Individual item */
 .bm-item {
   display: inline-block;
@@ -49,11 +34,12 @@
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  margin-right: 1rem;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  color: #bdc3c7;
 }
 
 /* General sidebar styles */
@@ -71,6 +57,7 @@
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
+  height: auto !important;
 }
 
 /* Styling of overlay */

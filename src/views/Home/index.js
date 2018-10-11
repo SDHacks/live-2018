@@ -6,8 +6,8 @@ class Home extends Component {
 
     render() {
         return (
-            <div class="hero d-flex container m-0 justify-content-center flex-column align-items-center">
-                <div class="row text-center">
+            <div className="hero d-flex container m-0 justify-content-center flex-column align-items-center">
+                <div className="row text-center">
                     <img className="hero__logo" src={logo} alt="logo" />
                     <div className="text-center w-100">
                         <h1 className="hero__text">SD HACKS LIVE </h1>
