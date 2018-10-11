@@ -23,13 +23,11 @@ class Countdown extends Component {
 
     render() {
         return (
-            <div className="announcements d-flex container m-0 justify-content-center flex-column align-items-center">
+            <div className="announcements container m-0">
                 <div className="row mb-5">
-                    <div className="text-center">
-                        <h1 className="announcements__header">
+                        <h1 className="announcements__header text-center w-100">
                             Announcements
                         </h1>
-                    </div>
                 </div>
                 {this.renderAnnouncements()}
             </div>

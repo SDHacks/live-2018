@@ -14,6 +14,12 @@ class Home extends Component {
                         <h3 className="hero__text hero__small">Welcome to SD Hacks 2018! 👋</h3>
                     </div>
                 </div>
+
+                <style dangerouslySetInnerHTML={{__html: `
+                    .bm-burger-bars {
+                        background: #1F6077;
+                    }
+                `}} />
             </div>
         )
     }

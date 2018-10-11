@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+        <SideBar />
         <Switch>
             <Route exact path='/' component={Home}></Route>
             <Route exact path='/countdown' component={Countdown}></Route>

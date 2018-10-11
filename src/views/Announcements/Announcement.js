@@ -4,7 +4,7 @@ class Announcement extends Component {
 
     render() {
         return (
-            <div className="announcement w-50 d-flex flex-column">
+            <div className="announcement w-50 d-flex flex-column container">
                 <div className="announcement__text">                
                     {this.props.data.text}
                     
