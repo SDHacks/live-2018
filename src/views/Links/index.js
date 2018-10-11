@@ -14,13 +14,13 @@ class Countdown extends Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <a className="col-md links__e" target="_blank" href="https://mentor.sdhacks.io">
+                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="https://mentor.sdhacks.io">
                                 Mentors
                             </a>
                             <a className="col-md links__e" target="_blank" href="../../assets/rimac.pdf">
                                 Map
                             </a>
-                            <a className="col-md links__e" target="_blank" href="https://join.slack.com/t/sdhacks2018/shared_invite/enQtNDQ4ODE3NDUxMTIzLTU4YTRkZjJmMDUwZWIwMDYyMmRmNTBmYzgzNDhiZjQ4NjYxMzllMDliOTI2MzEwOGMzNTliMDc5OGQ3ZGRjYjk">
+                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/sdhacks2018/shared_invite/enQtNDQ4ODE3NDUxMTIzLTU4YTRkZjJmMDUwZWIwMDYyMmRmNTBmYzgzNDhiZjQ4NjYxMzllMDliOTI2MzEwOGMzNTliMDc5OGQ3ZGRjYjk">
                                 Slack
                             </a>
                         </div>
@@ -28,7 +28,7 @@ class Countdown extends Component {
                             <a className="col-md links__e">
                                 Software & APIs
                             </a>
-                            <a className="col-md links__e" target="_blank" href="https://hardware.mlh.io">
+                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="https://hardware.mlh.io">
                                 Hardware
                             </a>
                         </div>

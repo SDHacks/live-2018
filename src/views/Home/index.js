@@ -11,7 +11,9 @@ class Home extends Component {
                     <img className="hero__logo" src={logo} alt="logo" />
                     <div className="text-center w-100">
                         <h1 className="hero__text">SD HACKS LIVE </h1>
-                        <h3 className="hero__text hero__small">Welcome to SD Hacks 2018! 👋</h3>
+                        <h3 className="hero__text hero__small">Welcome to SD Hacks 2018!
+                            <span role="img" aria-label="">👋</span>
+                        </h3>
                     </div>
                 </div>
 

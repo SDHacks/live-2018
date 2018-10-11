@@ -9,7 +9,7 @@ class SideBar extends React.Component {
         return (
             <Menu className="container p-0">
                     <div className="row">
-                        <img src={logo} className="sidebar__logo"></img>
+                        <img src={logo} alt="SDHacks Logo" className="sidebar__logo"></img>
                     </div>
                     <div className="sidebar__copy text-center text-white mt-3 mb-4">
                         <h3>SD HACKS LIVE</h3>

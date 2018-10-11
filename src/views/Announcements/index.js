@@ -9,7 +9,8 @@ class Countdown extends Component {
 
         if (announcements.length < 1) {
             return (<div class="announcements__small">
-                No Announcements Right Now, Happy Hacking! 😄
+                No Announcements Right Now, Happy Hacking!
+                <span role="img" aria-label="">😄</span>
             </div>)
         }
 
