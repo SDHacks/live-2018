@@ -86,9 +86,9 @@ class Countdown extends Component {
                             </div>                    
                         </div>
                     </div>
-                    <div className="countdown__copy text-center mt-5">
+                    <div className="countdown__copy text-center mt-5 col">
                         <h2> You can do this! We know you can!
-                             <span role="img" aria-label="">🙌</span>
+                            <span role="img" aria-label="">🙌</span>
                         </h2>
                     </div>
 
