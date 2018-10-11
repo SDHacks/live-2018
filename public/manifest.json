@@ -1,15 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SDHacks 2018 Live",
+  "name": "Live Site for SDHacks 2018",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.svg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/svg+xml"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#0D5166",
   "background_color": "#ffffff"
 }

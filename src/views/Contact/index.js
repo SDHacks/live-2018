@@ -9,7 +9,7 @@ class Contact extends Component {
                 <div className="row">
                     <div className="text-center">
                         <h1 className="announcements__header">
-                            Couldn't find what you need? Message us on <a href="https://join.slack.com/t/sdhacks2018/shared_invite/enQtNDQ4ODE3NDUxMTIzLTU4YTRkZjJmMDUwZWIwMDYyMmRmNTBmYzgzNDhiZjQ4NjYxMzllMDliOTI2MzEwOGMzNTliMDc5OGQ3ZGRjYjk">Slack</a> 💬
+                            Couldn't find what you need? Message us on <a className="announcements__link" href="https://join.slack.com/t/sdhacks2018/shared_invite/enQtNDQ4ODE3NDUxMTIzLTU4YTRkZjJmMDUwZWIwMDYyMmRmNTBmYzgzNDhiZjQ4NjYxMzllMDliOTI2MzEwOGMzNTliMDc5OGQ3ZGRjYjk">Slack</a> 💬
                         </h1>
                     </div>
                 </div>
