@@ -1,9 +1,84 @@
 .schedule {
     min-width: 100%;
-    height: 100%;
-    color: black;
+    color: $dark-blue;
+    padding-top: 5rem;
 
     &__header {
         font-size: 4rem;
     }
+
+    &__top {
+		width: 50%;
+        margin: 0 auto;
+        
+	}
+
+	&__bot {
+		width: 100%;
+		transform: translateY(1px);
+	}
+
+    &__border {
+        //border: 2px solid $dark-blue;
+        padding: 1rem 0rem;
+    }
+
+	&__main {
+		margin-top: 5rem;
+		position: relative;
+
+		&-graphic {
+			width: 15rem;
+			position: absolute;
+			left: 60%;
+			bottom: 50%;
+			opacity: 0.6;
+
+			@include media-breakpoint-down(sm) {
+		  		left: 20%;
+		  	}
+
+		}
+	}
+
+	&__title {
+		&-b {
+			font-size: 2.7rem;
+		}
+	}
+
+	&__list {
+		font-size: 1.2rem;
+		display: block;
+		padding-top: 1rem;
+
+		@include media-breakpoint-down(md) {
+			text-align: center;
+		}
+
+		&-item {
+			width: 100%;
+			margin: 1.5rem auto;
+			display: flex;
+			flex-wrap: wrap;
+
+			&-muted {
+				opacity: 0.6;
+			}
+
+			&_time {
+				width: 40%;
+				margin-right: 10%;
+				text-align: right;
+			}
+
+			&_text {
+				width: 50%;
+
+				&-l {
+					text-decoration: underline
+				}
+			}
+		}
+	}
 }
