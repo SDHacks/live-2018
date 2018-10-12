@@ -23,7 +23,7 @@ class Countdown extends Component {
                             </a>
                         </div>
                         <div className="row">
-                            <a className="col-md links__e">
+                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1q6HjHHK2tzGbbYxoRZFo4STqOo-NIpY6CBSNhJOkz0c/edit">
                                 Software & APIs
                             </a>
                             <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="https://hardware.mlh.io">
@@ -31,8 +31,8 @@ class Countdown extends Component {
                             </a>
                         </div>
                         <div className="row">
-                            <a className="col-md links__e" >
-                                Submit Your Project
+                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="">
+                                Devpost
                             </a>
                             <a className="col-md links__e">
                                 Expo
