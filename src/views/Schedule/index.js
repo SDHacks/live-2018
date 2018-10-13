@@ -91,7 +91,7 @@ class Countdown extends Component {
                           </span>
 
                           <span class="schedule__list-item_text">
-                            CSES Android Workshop
+                            CSES Machine Learning Workshop
                           </span>
                         </li>
                         <li class="schedule__list-item">
