@@ -186,6 +186,14 @@ class Countdown extends Component {
                           <u>ECE Alumni Mixer</u>
                         </a>
                       </li>
+                      <li class="schedule__list-item">
+                        <span class="schedule__list-item_time">
+                          9:00 am
+                        </span>
+                        <a class="schedule__list-item_text text-muted" href="assets/ece.pdf" target="_blank">
+                          <u>SPAWAR Tech Talk I</u>
+                        </a>
+                      </li>
                        <li class="schedule__list-item">
                         <span class="schedule__list-item_time">
                           10 am
@@ -206,10 +214,18 @@ class Countdown extends Component {
                       </li>
                       <li class="schedule__list-item">
                         <span class="schedule__list-item_time">
-                          6:30 pm
+                          1:00 pm
+                        </span>
+                        <a class="schedule__list-item_text text-muted" href="assets/ece.pdf" target="_blank">
+                          <u>SPAWAR Tech Talk II</u>
+                        </a>
+                      </li>
+                      <li class="schedule__list-item">
+                        <span class="schedule__list-item_time">
+                          5:30 pm
 
                           <div class="schedule__list-item-muted">
-                            8:00 pm
+                            6:30 pm
                           </div>
                         </span>
 
@@ -242,7 +258,7 @@ class Countdown extends Component {
                         </span>
 
                         <span class="schedule__list-item_text">
-                          Primal Scream & Donuts
+                          Primal Scream
                         </span>
                       </li>
                       <li class="schedule__list-item">
