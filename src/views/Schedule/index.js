@@ -86,26 +86,38 @@ class Countdown extends Component {
                           <span class="schedule__list-item_time">
                             10 pm
                             <div class="schedule__list-item-muted">
-                              to 10:45 pm
+                              to 10:30 pm
                             </div>
                           </span>
 
                           <span class="schedule__list-item_text">
-                            CSES Machine Learning Workshop
+                            NAVAIR Workshop
                           </span>
                         </li>
                         <li class="schedule__list-item">
                           <span class="schedule__list-item_time">
-                            10:45 pm
+                            10:30 pm
                             <div class="schedule__list-item-muted">
-                              to 11:30 pm
+                              to 11:15 pm
                             </div>
                           </span>
 
                           <span class="schedule__list-item_text">
-                            IEEE / HKN Arduino Workshop
+                            DocuSign Workshop
                           </span>
-                        </li>                       
+                        </li>  
+                         <li class="schedule__list-item">
+                          <span class="schedule__list-item_time">
+                            11:15 pm
+                            <div class="schedule__list-item-muted">
+                              to 12:00 am
+                            </div>
+                          </span>
+
+                          <span class="schedule__list-item_text">
+                            CSES Machine Learning
+                          </span>
+                        </li> 
                       </ul>
                     </div>
                   </div>
@@ -114,6 +126,32 @@ class Countdown extends Component {
                       <h3> Saturday, October 13 </h3>
                     </div>
                     <ul class="schedule__list">
+                      <li class="schedule__list-item">
+                        <span class="schedule__list-item_time">
+                          12:00 am
+
+                          <div class="schedule__list-item-muted">
+                            to 12:45 am
+                          </div>
+                        </span>
+
+                        <span class="schedule__list-item_text">
+                          IEEE / HKN Arduino Workshop
+                        </span>
+                      </li>
+                         <li class="schedule__list-item">
+                        <span class="schedule__list-item_time">
+                          12:45 am
+
+                          <div class="schedule__list-item-muted">
+                            to 1:30 am
+                          </div>
+                        </span>
+
+                        <span class="schedule__list-item_text">
+                          Microduino Workshop
+                        </span>
+                      </li>
                       <li class="schedule__list-item">
                         <span class="schedule__list-item_time">
                           5:30 am
