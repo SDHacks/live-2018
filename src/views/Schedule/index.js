@@ -218,7 +218,7 @@ class Countdown extends Component {
                         </span>
 
                         <span class="schedule__list-item_text">
-                          Cyber / SCATA Workshop
+                          Cyber / SCADA Workshop
                         </span>
                       </li>
                       <li class="schedule__list-item">
