@@ -154,7 +154,7 @@ class Countdown extends Component {
                         </span>
 
                         <span class="schedule__list-item_text">
-                          Northorp Grumman Workshop
+                          Northrop Grumman Workshop
                         </span>
                       </li>
                       <li class="schedule__list-item">
