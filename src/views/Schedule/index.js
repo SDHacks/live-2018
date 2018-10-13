@@ -190,8 +190,8 @@ class Countdown extends Component {
                         <span class="schedule__list-item_time">
                           9:00 am
                         </span>
-                        <a class="schedule__list-item_text text-muted" href="assets/ece.pdf" target="_blank">
-                          <u>SPAWAR Tech Talk I</u>
+                        <a class="schedule__list-item_text" target="_blank">
+                          FPGAs / Software Defined Radio Workshop
                         </a>
                       </li>
                        <li class="schedule__list-item">
@@ -214,11 +214,20 @@ class Countdown extends Component {
                       </li>
                       <li class="schedule__list-item">
                         <span class="schedule__list-item_time">
+                          11:30 am
+                        </span>
+
+                        <span class="schedule__list-item_text">
+                          Cyber / SCATA Workshop
+                        </span>
+                      </li>
+                      <li class="schedule__list-item">
+                        <span class="schedule__list-item_time">
                           1:00 pm
                         </span>
-                        <a class="schedule__list-item_text text-muted" href="assets/ece.pdf" target="_blank">
-                          <u>SPAWAR Tech Talk II</u>
-                        </a>
+                        <div class="schedule__list-item_text" target="_blank">
+                          Navy Technology Transfer And Transition
+                        </div>
                       </li>
                       <li class="schedule__list-item">
                         <span class="schedule__list-item_time">

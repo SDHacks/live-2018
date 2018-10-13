@@ -31,7 +31,7 @@ class Countdown extends Component {
                             </a>
                         </div>
                         <div className="row">
-                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="">
+                            <a className="col-md links__e" target="_blank" rel="noopener noreferrer" href="https://sdhacks2018.devpost.com">
                                 Devpost
                             </a>
                             <a className="col-md links__e">

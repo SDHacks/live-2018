@@ -30,9 +30,6 @@ class SideBar extends React.Component {
                 <NavLink className="sidebar__item" to="/links">
                     <h3>Helpful Links</h3>
                 </NavLink>
-                <NavLink className="sidebar__item" to="/whats">
-                    <h3>What's Going On?</h3>
-                </NavLink>
                 <NavLink className="sidebar__item" to="/schedule">
                     <h3>Full Schedule</h3>
                 </NavLink>
